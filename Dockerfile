@@ -33,3 +33,8 @@ EXPOSE 8083
 
 # Start the server
 CMD ["serve", "-s", ".", "-l", "8083"]
+
+# To create the container 
+#docker build -t Jimenez_santiago_coding_assignment12 .
+
+#docker run -d -p 8083:8083 --name jimenez_santiago_coding_assignment12 jimenez_santiago_coding_assignment12

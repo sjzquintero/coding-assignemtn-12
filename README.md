@@ -15,16 +15,10 @@ You need to have Node.js and npm (or yarn) installed on your machine.
 1. Clone the repository to your local machine.
 
 ```
-git clone https://github.com/yourusername/react-component-library.git
+git clone https://github.com/sjzquintero/coding-assignemtn-12
 ```
 
-2. Navigate into the project directory.
-
-```
-cd react-component-library
-```
-
-3. Install dependencies using npm.
+2. Install dependencies using npm.
 
 ```
 npm install
@@ -57,3 +51,14 @@ To build the component library for production, use the following command:
 ```
 npm run build
 ```
+### Running the Application with Docker
+
+To run the web application on `localhost:8083` using Docker, follow these steps:
+
+1. Build the Docker image.
+
+docker build -t jimenez_santiago_coding_assignment12 .
+
+2. Run the Docker container.
+
+docker run -d -p 8083:8083 --name jimenez_santiago_coding_assignment12 jimenez_santiago_coding_assignment12
